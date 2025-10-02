@@ -7,4 +7,12 @@
     <RootNamespace>dotnet_mvc_expense_tracker</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Views\category\Delete.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Views\category\Delete.cshtml" />
+  </ItemGroup>
+
 </Project>
